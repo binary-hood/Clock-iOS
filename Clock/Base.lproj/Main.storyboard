@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="2XD-hy-Ilg">
+                                <rect key="frame" x="49.666666666666657" y="33.666666666666657" width="291" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="4oi-6L-adb"/>
+                                    <constraint firstAttribute="height" constant="281" id="wbF-9T-51i"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="dOI-7V-Z6h">
+                                <rect key="frame" x="49.666666666666657" y="281.66666666666669" width="291" height="281.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="Yje-MO-2N7"/>
+                                    <constraint firstAttribute="width" constant="291" id="e4C-4o-Ddc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal" translatesAutoresizingMaskIntoConstraints="NO" id="lH5-Y6-1zV">
+                                <rect key="frame" x="55" y="154.66666666666663" width="280" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="Z5A-fI-24w"/>
+                                    <constraint firstAttribute="width" constant="280" id="pr2-W5-AeD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal" translatesAutoresizingMaskIntoConstraints="NO" id="D0K-Rn-omI">
+                                <rect key="frame" x="55" y="407.66666666666674" width="280" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Jj3-pc-T6m"/>
+                                    <constraint firstAttribute="height" constant="281" id="fgX-2R-dTA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Xa-mP-edi">
+                                <rect key="frame" x="49.666666666666657" y="529.66666666666663" width="291" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="Xc3-Zk-0oL"/>
+                                    <constraint firstAttribute="width" constant="291" id="hIb-J5-DBb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Xa-mP-edi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Vr-UR-K6f"/>
+                            <constraint firstItem="D0K-Rn-omI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dkn-13-ODn"/>
+                            <constraint firstItem="dOI-7V-Z6h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OkC-6t-lko"/>
+                            <constraint firstItem="lH5-Y6-1zV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-127" id="Tbq-1d-x2e"/>
+                            <constraint firstItem="1Xa-mP-edi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="248" id="Yjl-cj-Dxt"/>
+                            <constraint firstItem="dOI-7V-Z6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKf-lf-vVs"/>
+                            <constraint firstItem="2XD-hy-Ilg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jU2-cT-2Pi"/>
+                            <constraint firstItem="D0K-Rn-omI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="126" id="uT7-97-yi8"/>
+                            <constraint firstItem="lH5-Y6-1zV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xv0-lN-gMH"/>
+                            <constraint firstItem="2XD-hy-Ilg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-248" id="zKI-yo-gtn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hour" destination="2XD-hy-Ilg" id="IHg-wy-c6c"/>
+                        <outlet property="minute" destination="dOI-7V-Z6h" id="qS4-01-MEh"/>
+                        <outlet property="second" destination="1Xa-mP-edi" id="MLy-wa-7rF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.38461538461539" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="horizontal" width="166.66667175292969" height="166.66667175292969"/>
+    </resources>
+</document>

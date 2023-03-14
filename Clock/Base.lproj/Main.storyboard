@@ -66,11 +66,6 @@
                             <constraint firstItem="2XD-hy-Ilg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-248" id="zKI-yo-gtn"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="hour" destination="2XD-hy-Ilg" id="IHg-wy-c6c"/>
-                        <outlet property="minute" destination="dOI-7V-Z6h" id="qS4-01-MEh"/>
-                        <outlet property="second" destination="1Xa-mP-edi" id="MLy-wa-7rF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
